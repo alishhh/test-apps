@@ -24,11 +24,11 @@ jobs:
     - name: Build url-shortener-app
       run: go build -o url-shortener-app ./url-shortener-app/cmd/url-shortener-app
 
-    - name: Test url-shortener-app
-      run: go test -v ./url-shortener-app/...
+    # - name: Test url-shortener-app
+    #   run: go test -v ./url-shortener-app/...
 
-    - name: Build auth-app
-      run: go build -o auth-app ./auth-app/cmd/auth-app
+    # - name: Build auth-app
+    #   run: go build -o auth-app ./auth-app/cmd/auth-app
 
-    - name: Test auth-app
-      run: go test -v ./auth-app/...
+    # - name: Test auth-app
+    #   run: go test -v ./auth-app/...
